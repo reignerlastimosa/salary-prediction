@@ -1,5 +1,5 @@
 import streamlit as st
-from salaryprediction import show_predict_page
+from predict_page import show_predict_page
 
 st.set_page_config(page_title="Salary Prediction App")
 
