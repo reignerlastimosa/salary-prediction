@@ -24,8 +24,8 @@ def predict_salary(country, education_level, experience_years, file_path='saved_
     return salary[0]
 
 def show_predict_page():
-    st.title("Software Developer Salary Prediction")
-    st.write("""### We need some information to predict the salary""")
+    st.title("Predict Developer Salary using ML")
+    st.write("""### Fill Data to predict the salary""")
 
     countries = (
         "United States", "India", "United Kingdom", "Germany", "Canada",

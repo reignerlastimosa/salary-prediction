@@ -53,11 +53,11 @@ def load_data():
 df = load_data()
 
 def show_explore_page():
-    st.title("Explore Software Engineer Salaries")
+    st.title("Web Developer Salary Analysis")
 
     st.write(
         """
-    ### Stack Overflow Developer Survey 2020
+    ### Stack Overflow Developer Survey 
     """
     )
 
@@ -67,13 +67,13 @@ def show_explore_page():
     ax1.pie(data, labels=data.index, autopct="%1.1f%%", shadow=True, startangle=90)
     ax1.axis("equal")  # Equal aspect ratio ensures that pie is drawn as a circle.
 
-    st.write("""#### Number of Data from different countries""")
+    st.write("""#### Data Percentage per Country""")
 
     st.pyplot(fig1)
     
     st.write(
         """
-    #### Mean Salary Based On Country
+    #### Average Salary By Country
     """
     )
 
@@ -82,7 +82,7 @@ def show_explore_page():
 
     st.write(
         """
-    #### Mean Salary Based On Experience
+    #### Average Salary Based On Experience
     """
     )
 
